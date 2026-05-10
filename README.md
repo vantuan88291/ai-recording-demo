@@ -1,6 +1,6 @@
 # AI Meeting Recorder
 
-https://github.com/vantuan88291/ai-recording-demo/raw/master/IMG_9446.MP4
+<video src="https://github.com/vantuan88291/ai-recording-demo/raw/master/IMG_9446.MP4" width="300" />
 
 Record in-person meetings, transcribe with OpenAI Whisper, and get a summary delivered via push notification.
 
