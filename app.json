@@ -15,22 +15,18 @@
     "**/*"
   ],
   "android": {
-    "icon": "./assets/images/app-icon-android-legacy.png",
+    "icon": "./assets/images/app-icon-all.png",
     "package": "com.recordmeeting",
-    "adaptiveIcon": {
-      "foregroundImage": "./assets/images/app-icon-android-adaptive-foreground.png",
-      "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
-    },
     "allowBackup": false,
     "edgeToEdgeEnabled": true
   },
   "ios": {
-    "icon": "./assets/images/app-icon-ios.png",
+    "icon": "./assets/images/app-icon-all.png",
     "supportsTablet": true,
     "bundleIdentifier": "com.recordmeeting"
   },
   "web": {
-    "favicon": "./assets/images/app-icon-web-favicon.png",
+    "favicon": "./assets/images/app-icon-all.png",
     "bundler": "metro"
   },
   "plugins": [
@@ -39,10 +35,10 @@
     [
       "expo-splash-screen",
       {
-        "image": "./assets/images/app-icon-android-adaptive-foreground.png",
+        "image": "./assets/images/app-icon-all.png",
         "imageWidth": 300,
         "resizeMode": "contain",
-        "backgroundColor": "#191015"
+        "backgroundColor": "#ffffff"
       }
     ],
     [
@@ -64,6 +60,9 @@
   "extra": {
     "ignite": {
       "version": "11.5.0"
+    },
+    "eas": {
+      "projectId": "477ea387-e2ef-4a2a-8175-3ca5afd053ce"
     }
   }
 }
