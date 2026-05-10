@@ -3,7 +3,7 @@
 
 Record in-person meetings, transcribe with OpenAI Whisper, and get a summary delivered via push notification.
 
-<video src="https://github.com/user-attachments/assets/1c3eb128-b194-45a5-81ed-1388e0236e2c" width="352" height="720"></video>
+<video src="https://github.com/user-attachments/assets/1c3eb128-b194-45a5-81ed-1388e0236e2c" width="auto" height="720"></video>
 
 ## Stack
 
